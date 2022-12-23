@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-.gallery {
+.holder {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@
   margin: 0 auto;
   padding: 20px 10px;
 }
-.gallery img {
+.holder img {
   width: 100%;
   max-width: 350px;
   height: 300px;
@@ -19,7 +19,7 @@
   border-radius: 10px;
 }
 
-.gallery::after {
+.holder::after {
   content: "";
   width: 350px;
 }
